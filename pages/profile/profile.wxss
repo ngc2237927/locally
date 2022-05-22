@@ -1,0 +1,54 @@
+/* pages/profile/profile.wxss */
+.header{
+    height: 488rpx;
+    background-color: #0056ad;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header .avatar{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30%;
+}
+.header .avatar image{
+    width: 250rpx;
+    height: 250rpx;
+    border:20rpx solid rgba(224, 229, 239, 0.2);
+    border-radius: 50%;
+}
+
+.avatar text{
+    color: #fff;
+    font-size: 48rpx;
+    margin-top: 20rpx;
+}
+
+.nav{
+    margin-top: 20rpx;
+}
+
+.option{
+    height: 100rpx;
+    background-color: #fff;
+    border-bottom: 1rpx solid #eee;
+}
+.option image{
+    width: 50rpx;
+    height: 50rpx;
+    position: relative;
+    top: 25rpx;
+    float: right;
+    margin-right: 30rpx;
+}
+
+.option text{
+   padding-left: 45rpx;
+   line-height: 100rpx;
+   color: #242424;
+}
+.null{
+    height: 20rpx;
+}

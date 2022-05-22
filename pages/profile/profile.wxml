@@ -1,0 +1,32 @@
+<!--pages/profile/profile.wxml-->
+<view class="header">
+    <view class="avatar">
+        <image src="/assets/images/avatar.png"/>
+        <text>name</text>
+    </view>
+</view>
+
+<view class="nav">
+    <view class="option">
+        <text>个人信息</text>
+        <image src="/assets/icons/右箭头.png"/>
+    </view>
+    <view class="null"></view>
+    <view class="option">
+        <text>常见问题</text>
+        <image src="/assets/icons/右箭头.png"/>
+    </view>
+    <view class="option">
+        <text>使用条款</text>
+        <image src="/assets/icons/右箭头.png"/>
+    </view>
+    <view class="option">
+        <text>隐私权条款</text>
+        <image src="/assets/icons/右箭头.png"/>
+    </view>
+    <view class="null"></view>
+    <view class="option">
+        <text>设置</text>
+        <image src="/assets/icons/右箭头.png"/>
+    </view>
+</view>

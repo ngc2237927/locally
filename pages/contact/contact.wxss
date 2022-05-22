@@ -1,0 +1,84 @@
+/* pages/contact/contact.wxss */
+.top{
+    height: 840rpx;
+    background-image: linear-gradient(#0056ad, #2a75c0,#9bbee0,#eee);
+}
+
+.headline{
+    color: #ffffff; 
+}
+
+.text1{
+    width: 90%;
+    display: flex;
+    font-size: 60rpx;
+    padding-top: 40rpx;
+    margin-left: 5%;
+}
+
+.text2{
+    width: 90%;
+    display: flex;
+    font-size: 28rpx;
+    padding-top: 20rpx;
+    margin-left: 5%;
+}
+
+.text3{
+    width: 90%;
+    display: flex;
+    font-size: 22rpx;
+    padding-top: 20rpx;
+    margin-left: 5%;
+}
+
+.beg{
+    width: 90%;
+    height: 460rpx;
+    background-color: #ffffff;
+    margin-top: -500rpx;
+    margin-left: 5%;
+}
+
+.beg .main text{
+    display: flex;
+    margin-top: 30rpx;
+    padding: 30rpx 30rpx 0rpx 30rpx;
+    color: #3b74b9;
+}
+
+.textarea-wrp textarea{
+    height: 200rpx;
+    margin: 30rpx;
+    padding: 20rpx;
+    border: 1rpx solid #eee;
+}
+
+.btn-area button{
+    width: 200rpx;
+    background-color: #0055ae;
+    color: #ffffff;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.beg2{
+    width: 90%;
+    height: 400rpx;
+    background-color: #e0ecf8;
+    margin-left: 5%;
+    margin-bottom: 30rpx;
+}
+
+.beg2 .main2 text{
+    display: flex;
+    margin-top: 30rpx;
+    padding: 30rpx 30rpx 0rpx 30rpx;
+    color: #3b74b9;
+}
+
+.caption{
+    font-size: 36rpx;
+}

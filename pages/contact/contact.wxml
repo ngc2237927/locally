@@ -1,0 +1,28 @@
+<!--pages/contact/contact.wxml-->
+<view class="top">
+    <view class="headline">
+        <text class="text1">成 功 联 系 你 我</text>
+        <text class="text2">I SUCCESSFULLY CONTACTED YOU.</text>
+        <text class="text3">Never give up, Never lose hope. Always have faith. It allows you to cope.
+        Trying times will pass, As they always do.Just have patience.</text>
+    </view>
+</view>
+<view class="beg">
+    <view class="main">
+        <text class="caption">问题反馈</text>
+        <view class="textarea-wrp">
+            <textarea placeholder="请输入反馈内容" focus="{{focus}}" />
+            <view class="btn-area">
+                <button type="default" form-type="submit" size="mini">提交</button>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="beg2">
+    <view class="main2">
+       <text class="caption">联系方式</text>
+       <text>地址信息：广东省广州市天河区***</text>
+       <text>联系电话：133***8790</text>
+       <text>电子邮箱：133***8790@163.com</text>
+    </view>
+</view>
